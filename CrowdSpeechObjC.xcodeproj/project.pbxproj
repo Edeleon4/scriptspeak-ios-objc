@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CBA3AF11A06E3A3005134CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA3AF01A06E3A3005134CD /* main.m */; };
+		2CBA3AF41A06E3A3005134CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA3AF31A06E3A3005134CD /* AppDelegate.m */; };
+		2CBA3AF71A06E3A3005134CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA3AF61A06E3A3005134CD /* ViewController.m */; };
+		2CBA3AFA1A06E3A3005134CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBA3AF81A06E3A3005134CD /* Main.storyboard */; };
+		2CBA3AFC1A06E3A3005134CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBA3AFB1A06E3A3005134CD /* Images.xcassets */; };
+		2CBA3AFF1A06E3A3005134CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBA3AFD1A06E3A3005134CD /* LaunchScreen.xib */; };
+		2CBA3B0B1A06E3A3005134CD /* CrowdSpeechObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA3B0A1A06E3A3005134CD /* CrowdSpeechObjCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CBA3B051A06E3A3005134CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBA3AE31A06E3A3005134CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CBA3AEA1A06E3A3005134CD;
+			remoteInfo = CrowdSpeechObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CBA3AEB1A06E3A3005134CD /* CrowdSpeechObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrowdSpeechObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBA3AEF1A06E3A3005134CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CBA3AF01A06E3A3005134CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CBA3AF21A06E3A3005134CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CBA3AF31A06E3A3005134CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CBA3AF51A06E3A3005134CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CBA3AF61A06E3A3005134CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CBA3AF91A06E3A3005134CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CBA3AFB1A06E3A3005134CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CBA3AFE1A06E3A3005134CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2CBA3B041A06E3A3005134CD /* CrowdSpeechObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdSpeechObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBA3B091A06E3A3005134CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CBA3B0A1A06E3A3005134CD /* CrowdSpeechObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrowdSpeechObjCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CBA3AE81A06E3A3005134CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBA3B011A06E3A3005134CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBA3AE21A06E3A3005134CD = {
+			isa = PBXGroup;
+			children = (
+				2CBA3AED1A06E3A3005134CD /* CrowdSpeechObjC */,
+				2CBA3B071A06E3A3005134CD /* CrowdSpeechObjCTests */,
+				2CBA3AEC1A06E3A3005134CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CBA3AEC1A06E3A3005134CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA3AEB1A06E3A3005134CD /* CrowdSpeechObjC.app */,
+				2CBA3B041A06E3A3005134CD /* CrowdSpeechObjCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CBA3AED1A06E3A3005134CD /* CrowdSpeechObjC */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA3AF21A06E3A3005134CD /* AppDelegate.h */,
+				2CBA3AF31A06E3A3005134CD /* AppDelegate.m */,
+				2CBA3AF51A06E3A3005134CD /* ViewController.h */,
+				2CBA3AF61A06E3A3005134CD /* ViewController.m */,
+				2CBA3AF81A06E3A3005134CD /* Main.storyboard */,
+				2CBA3AFB1A06E3A3005134CD /* Images.xcassets */,
+				2CBA3AFD1A06E3A3005134CD /* LaunchScreen.xib */,
+				2CBA3AEE1A06E3A3005134CD /* Supporting Files */,
+			);
+			path = CrowdSpeechObjC;
+			sourceTree = "<group>";
+		};
+		2CBA3AEE1A06E3A3005134CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA3AEF1A06E3A3005134CD /* Info.plist */,
+				2CBA3AF01A06E3A3005134CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CBA3B071A06E3A3005134CD /* CrowdSpeechObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA3B0A1A06E3A3005134CD /* CrowdSpeechObjCTests.m */,
+				2CBA3B081A06E3A3005134CD /* Supporting Files */,
+			);
+			path = CrowdSpeechObjCTests;
+			sourceTree = "<group>";
+		};
+		2CBA3B081A06E3A3005134CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA3B091A06E3A3005134CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CBA3AEA1A06E3A3005134CD /* CrowdSpeechObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBA3B0E1A06E3A3005134CD /* Build configuration list for PBXNativeTarget "CrowdSpeechObjC" */;
+			buildPhases = (
+				2CBA3AE71A06E3A3005134CD /* Sources */,
+				2CBA3AE81A06E3A3005134CD /* Frameworks */,
+				2CBA3AE91A06E3A3005134CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrowdSpeechObjC;
+			productName = CrowdSpeechObjC;
+			productReference = 2CBA3AEB1A06E3A3005134CD /* CrowdSpeechObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CBA3B031A06E3A3005134CD /* CrowdSpeechObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBA3B111A06E3A3005134CD /* Build configuration list for PBXNativeTarget "CrowdSpeechObjCTests" */;
+			buildPhases = (
+				2CBA3B001A06E3A3005134CD /* Sources */,
+				2CBA3B011A06E3A3005134CD /* Frameworks */,
+				2CBA3B021A06E3A3005134CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CBA3B061A06E3A3005134CD /* PBXTargetDependency */,
+			);
+			name = CrowdSpeechObjCTests;
+			productName = CrowdSpeechObjCTests;
+			productReference = 2CBA3B041A06E3A3005134CD /* CrowdSpeechObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CBA3AE31A06E3A3005134CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Eduardo de Leon";
+				TargetAttributes = {
+					2CBA3AEA1A06E3A3005134CD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2CBA3B031A06E3A3005134CD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2CBA3AEA1A06E3A3005134CD;
+					};
+				};
+			};
+			buildConfigurationList = 2CBA3AE61A06E3A3005134CD /* Build configuration list for PBXProject "CrowdSpeechObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CBA3AE21A06E3A3005134CD;
+			productRefGroup = 2CBA3AEC1A06E3A3005134CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CBA3AEA1A06E3A3005134CD /* CrowdSpeechObjC */,
+				2CBA3B031A06E3A3005134CD /* CrowdSpeechObjCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CBA3AE91A06E3A3005134CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBA3AFA1A06E3A3005134CD /* Main.storyboard in Resources */,
+				2CBA3AFF1A06E3A3005134CD /* LaunchScreen.xib in Resources */,
+				2CBA3AFC1A06E3A3005134CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBA3B021A06E3A3005134CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CBA3AE71A06E3A3005134CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBA3AF71A06E3A3005134CD /* ViewController.m in Sources */,
+				2CBA3AF41A06E3A3005134CD /* AppDelegate.m in Sources */,
+				2CBA3AF11A06E3A3005134CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBA3B001A06E3A3005134CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBA3B0B1A06E3A3005134CD /* CrowdSpeechObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CBA3B061A06E3A3005134CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CBA3AEA1A06E3A3005134CD /* CrowdSpeechObjC */;
+			targetProxy = 2CBA3B051A06E3A3005134CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CBA3AF81A06E3A3005134CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CBA3AF91A06E3A3005134CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CBA3AFD1A06E3A3005134CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CBA3AFE1A06E3A3005134CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CBA3B0C1A06E3A3005134CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CBA3B0D1A06E3A3005134CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CBA3B0F1A06E3A3005134CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrowdSpeechObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CBA3B101A06E3A3005134CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrowdSpeechObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CBA3B121A06E3A3005134CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrowdSpeechObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrowdSpeechObjC.app/CrowdSpeechObjC";
+			};
+			name = Debug;
+		};
+		2CBA3B131A06E3A3005134CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrowdSpeechObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrowdSpeechObjC.app/CrowdSpeechObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CBA3AE61A06E3A3005134CD /* Build configuration list for PBXProject "CrowdSpeechObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBA3B0C1A06E3A3005134CD /* Debug */,
+				2CBA3B0D1A06E3A3005134CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBA3B0E1A06E3A3005134CD /* Build configuration list for PBXNativeTarget "CrowdSpeechObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBA3B0F1A06E3A3005134CD /* Debug */,
+				2CBA3B101A06E3A3005134CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CBA3B111A06E3A3005134CD /* Build configuration list for PBXNativeTarget "CrowdSpeechObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBA3B121A06E3A3005134CD /* Debug */,
+				2CBA3B131A06E3A3005134CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CBA3AE31A06E3A3005134CD /* Project object */;
+}

@@ -14,6 +14,7 @@
 		2CBA3AFC1A06E3A3005134CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBA3AFB1A06E3A3005134CD /* Images.xcassets */; };
 		2CBA3AFF1A06E3A3005134CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBA3AFD1A06E3A3005134CD /* LaunchScreen.xib */; };
 		2CBA3B0B1A06E3A3005134CD /* CrowdSpeechObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA3B0A1A06E3A3005134CD /* CrowdSpeechObjCTests.m */; };
+		2CBA3B151A06E6C0005134CD /* DictationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA3B141A06E6C0005134CD /* DictationModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2CBA3B041A06E3A3005134CD /* CrowdSpeechObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdSpeechObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBA3B091A06E3A3005134CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CBA3B0A1A06E3A3005134CD /* CrowdSpeechObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrowdSpeechObjCTests.m; sourceTree = "<group>"; };
+		2CBA3B141A06E6C0005134CD /* DictationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictationModel.m; sourceTree = "<group>"; };
+		2CBA3B161A06E871005134CD /* DictationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictationModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		2CBA3AE21A06E3A3005134CD = {
 			isa = PBXGroup;
 			children = (
+				2CBA3B161A06E871005134CD /* DictationModel.h */,
+				2CBA3B141A06E6C0005134CD /* DictationModel.m */,
 				2CBA3AED1A06E3A3005134CD /* CrowdSpeechObjC */,
 				2CBA3B071A06E3A3005134CD /* CrowdSpeechObjCTests */,
 				2CBA3AEC1A06E3A3005134CD /* Products */,
@@ -168,6 +173,7 @@
 				TargetAttributes = {
 					2CBA3AEA1A06E3A3005134CD = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = B95V8W7G6V;
 					};
 					2CBA3B031A06E3A3005134CD = {
 						CreatedOnToolsVersion = 6.1;
@@ -222,6 +228,7 @@
 				2CBA3AF71A06E3A3005134CD /* ViewController.m in Sources */,
 				2CBA3AF41A06E3A3005134CD /* AppDelegate.m in Sources */,
 				2CBA3AF11A06E3A3005134CD /* main.m in Sources */,
+				2CBA3B151A06E6C0005134CD /* DictationModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +352,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CrowdSpeechObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -355,9 +366,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CrowdSpeechObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -414,6 +429,7 @@
 				2CBA3B101A06E3A3005134CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CBA3B111A06E3A3005134CD /* Build configuration list for PBXNativeTarget "CrowdSpeechObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +438,7 @@
 				2CBA3B131A06E3A3005134CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

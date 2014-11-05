@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FDCB50F3-7115-4C8C-A330-7C3E39D55E0E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CrowdSpeechObjC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8993397F47F9208BE95F3BB47ED39E852EE08EE3</key>
+		<string>https://github.com/Edeleon4/scriptspeak-ios-objc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CrowdSpeechObjC.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8993397F47F9208BE95F3BB47ED39E852EE08EE3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Edeleon4/scriptspeak-ios-objc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8993397F47F9208BE95F3BB47ED39E852EE08EE3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8993397F47F9208BE95F3BB47ED39E852EE08EE3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CrowdSpeechObjC</string>
+		</dict>
+	</array>
+</dict>
+</plist>

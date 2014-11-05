@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DictationModel.h"
 
 @interface ViewController : UIViewController
-
-
+-(void)play:(Dictation*) dictation;
 @end
 
